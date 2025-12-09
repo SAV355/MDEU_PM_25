@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дройд — Профессиональный ремонт телефонов</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Подключаем шрифты с Google Fonts для современной типографики -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ======================= ШАПКА САЙТА (HEADER) ======================= -->
+    <header class="header">
+        <div class="container header__container">
+            <a href="#" class="header__logo">
+                <!-- Плейсхолдер для логотипа -->
+                <img src="./assets/img/svg/logo.svg" alt="Логотип Дройд">
+            </a>
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#pricing">Цены</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                    <li><a href="#vacancies">Вакансии</a></li>
+                </ul>
+            </nav>
+            <div class="header__work-time">
+                <p>Режим работы:</p>
+                <p>Пн-Вс: 10:00 - 21:00</p>
+            </div>
+            <div class="header__contacts">
+                <a href="tel:+74951234567">+7 (495) 123-45-67</a>
+                <a href="mailto:info@droid-service.com">info@droid-service.com</a>
+                <div class="header__social">
+                    <!-- Плейсхолдеры для иконок соцсетей -->
+                    <a href="#"><img src="/assets/img/icon/icon_telegram_32.png" alt="Telegram"></a>
+                    <a href="#"><img src="/assets/img/icon/icon_WhatsApp_32.png" alt="WhatsApp"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ======================= ПЕРВЫЙ ЭКРАН (HERO) ======================= -->
+        <section class="hero" id="hero">
+            <div class="container hero__container">
+                <div class="hero__content">
+                    <h1>Профессиональный ремонт телефонов в Москве</h1>
+                    <p>Быстрый и качественный ремонт с гарантией. Оставьте заявку, и мы перезвоним вам в течение 5 минут!</p>
+                    <div class="hero__brands">
+                        <p>Специализируемся на брендах:</p>
+                        <span>Apple</span>
+                        <span>Samsung</span>
+                        <span>Xiaomi</span>
+                        <span>Huawei</span>
+                        <span>Honor</span>
+                        <span>Realme</span>
+                    </div>
+                </div>
+                <div class="hero__form-wrapper">
+                    <form class="callback-form" id="main-form">
+                        <h3>Закажите обратный звонок</h3>
+                        <p>Наш менеджер свяжется с вами</p>
+                        <input type="text" name="name" placeholder="Ваше имя" required>
+                        <input type="tel" name="phone" placeholder="Ваш телефон" required>
+                        <button type="submit" class="btn">Позвонить мне</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================= БЛОК ПРЕИМУЩЕСТВ (ADVANTAGES) ======================= -->
+        <section class="advantages" id="about">
+            <div class="container">
+                <h2 class="section-title">Почему выбирают нас</h2>
+                <div class="advantages__grid">
+                    <div class="advantage-item">
+                        <h3>Быстрый ремонт</h3>
+                        <p>Большинство неисправностей устраняем в течение 30-60 минут прямо при вас.</p>
+                    </div>
+                    <div class="advantage-item">
+                        <h3>Гарантия качества</h3>
+                        <p>Предоставляем гарантию на все выполненные работы и установленные запчасти до 1 года.</p>
+                    </div>
+                    <div class="advantage-item">
+                        <h3>Опытные мастера</h3>
+                        <p>Наши инженеры имеют опыт работы более 5 лет и проходят регулярную сертификацию.</p>
+                    </div>
+                     <div class="advantage-item">
+                        <h3>Бесплатная диагностика</h3>
+                        <p>Даже в случае отказа от ремонта, вы не платите за диагностику устройства.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================= БЛОК ВИДЫ НЕИСПРАВНОСТЕЙ (FAULTS) ======================= -->
+        <section class="faults" id="faults">
+            <div class="container">
+                <h2 class="section-title">Популярные виды ремонта</h2>
+                <div class="faults__grid">
+                    <!-- Карточка 1 -->
+                    <div class="fault-card">
+                        <img src="https://via.placeholder.com/300x200/cccccc/000000?text=Замена+дисплея" alt="Замена дисплея">
+                        <div class="fault-card__content">
+                            <h4>Замена дисплейного модуля</h4>
+                            <p>Установка нового оригинального экрана или качественной копии на ваш выбор.</p>
+                            <div class="fault-card__price">от 3500 ₽</div>
+                        </div>
+                    </div>
+                    <!-- Карточка 2 -->
+                    <div class="fault-card">
+                        <img src="https://via.placeholder.com/300x200/cccccc/000000?text=Замена+аккумулятора" alt="Замена аккумулятора">
+                        <div class="fault-card__content">
+                            <h4>Замена аккумулятора</h4>
+                            <p>Телефон быстро разряжается? Установим новую батарею с гарантией.</p>
+                            <div class="fault-card__price">от 1500 ₽</div>
+                        </div>
+                    </div>
+                    <!-- Карточка 3 -->
+                    <div class="fault-card">
+                        <img src="https://via.placeholder.com/300x200/cccccc/000000?text=Обновление+ПО" alt="Обновление ПО">
+                        <div class="fault-card__content">
+                            <h4>Обновление ПО и прошивка</h4>
+                            <p>Устранение программных сбоев, удаление вирусов, установка ПО.</p>
+                            <div class="fault-card__price">от 1200 ₽</div>
+                        </div>
+                    </div>
+                    <!-- Карточка 4 -->
+                    <div class="fault-card">
+                        <img src="https://via.placeholder.com/300x200/cccccc/000000?text=Чистка+от+влаги" alt="Чистка от влаги">
+                        <div class="fault-card__content">
+                            <h4>Чистка после попадания жидкости</h4>
+                            <p>Комплексная ультразвуковая чистка платы от коррозии для спасения вашего устройства.</p>
+                            <div class="fault-card__price">от 2000 ₽</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Вторая форма обратного звонка -->
+                <div class="faults__callback">
+                    <h3>Не нашли свою проблему?</h3>
+                    <p>Опишите неисправность менеджеру, и мы предложим решение.</p>
+                    <form class="callback-form callback-form--horizontal">
+                        <input type="text" name="name" placeholder="Ваше имя" required>
+                        <input type="tel" name="phone" placeholder="Ваш телефон" required>
+                        <button type="submit" class="btn">Получить консультацию</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================= БЛОК ПРАЙС-ЛИСТ (PRICING SLIDER) ======================= -->
+        <section class="pricing" id="pricing">
+            <div class="container">
+                <h2 class="section-title">Прайс-лист на основные работы</h2>
+                <div class="slider-wrapper">
+                    <!-- Радио-кнопки для управления слайдером -->
+                    <input type="radio" name="pricing-slider" id="price-slide1" checked>
+                    <input type="radio" name="pricing-slider" id="price-slide2">
+                    <input type="radio" name="pricing-slider" id="price-slide3">
+                    
+                    <div class="slides-container">
+                        <!-- Слайд 1 -->
+                        <div class="slide price-slide">
+                            <h3>Замена дисплея</h3>
+                            <div class="price-columns">
+                                <div class="price-column">
+                                    <h4>Базовая (копия)</h4>
+                                    <p class="price">от 3500 ₽</p>
+                                    <p>Качественная копия экрана. Гарантия 3 месяца.</p>
+                                </div>
+                                <div class="price-column">
+                                    <h4>Средняя (ориг. матрица)</h4>
+                                    <p class="price">от 6000 ₽</p>
+                                    <p>Оригинальная матрица, неоригинальное стекло. Гарантия 6 месяцев.</p>
+                                </div>
+                                <div class="price-column">
+                                    <h4>Сложный ремонт (оригинал)</h4>
+                                    <p class="price">от 9000 ₽</p>
+                                    <p>Полностью оригинальный модуль. Гарантия 1 год.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Слайд 2 -->
+                        <div class="slide price-slide">
+                            <h3>Замена аккумулятора</h3>
+                            <div class="price-columns">
+                                <div class="price-column">
+                                    <h4>Базовая (аналог)</h4>
+                                    <p class="price">от 1500 ₽</p>
+                                    <p>Аккумулятор-аналог. Гарантия 3 месяца.</p>
+                                </div>
+                                <div class="price-column">
+                                    <h4>Средняя (усиленный)</h4>
+                                    <p class="price">от 2500 ₽</p>
+                                    <p>Аккумулятор повышенной емкости. Гарантия 6 месяцев.</p>
+                                </div>
+                                <div class="price-column">
+                                    <h4>Сложный ремонт (оригинал)</h4>
+                                    <p class="price">от 3500 ₽</p>
+                                    <p>Оригинальный аккумулятор. Гарантия 1 год.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Слайд 3 -->
+                        <div class="slide price-slide">
+                            <h3>Ремонт материнской платы</h3>
+                            <div class="price-columns">
+                                <div class="price-column">
+                                    <h4>Базовая (пайка BGA)</h4>
+                                    <p class="price">от 4000 ₽</p>
+                                    <p>Простая пайка компонентов, реболлинг.</p>
+                                </div>
+                                <div class="price-column">
+                                    <h4>Средняя (замена контроллера)</h4>
+                                    <p class="price">от 6500 ₽</p>
+                                    <p>Замена контроллера питания, аудиокодека и т.д.</p>
+                                </div>
+                                <div class="price-column">
+                                    <h4>Сложный ремонт (восстановление цепей)</h4>
+                                    <p class="price">от 8000 ₽</p>
+                                    <p>Восстановление дорожек платы после удара или влаги.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Навигация для слайдера -->
+                    <div class="slider-nav">
+                        <label for="price-slide1"></label>
+                        <label for="price-slide2"></label>
+                        <label for="price-slide3"></label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- ================= B.10. Блок Вакансии (Vacancies) ================= -->
+        <section id="vacancies" class="vacancies">
+            <div class="container">
+                <h2 class="section-title">Станьте частью команды «Дройд»</h2>
+                
+                <div class="vacancies__container">
+                    <!-- Левая колонка: список вакансий -->
+                    <div class="vacancies__list">
+                        
+                        <!-- Вакансия 1 -->
+                        <div class="vacancy-item">
+                            <input type="checkbox" id="vacancy1" class="vacancy-toggle">
+                            <label for="vacancy1" class="vacancy-title">
+                                <span>Мастер по ремонту смартфонов и планшетов</span>
+                                <span class="vacancy-icon"></span>
+                            </label>
+                            <div class="vacancy-content">
+                                <h4>Основные обязанности:</h4>
+                                <ul>
+                                    <li>Диагностика неисправностей мобильных устройств (Apple, Samsung, Xiaomi и др.).</li>
+                                    <li>Модульный и компонентный ремонт: замена дисплеев, аккумуляторов, разъемов.</li>
+                                    <li>Пайка BGA, замена микросхем, восстановление после попадания влаги.</li>
+                                    <li>Консультирование клиентов по техническим вопросам.</li>
+                                </ul>
+                                <h4>Требования:</h4>
+                                <ul>
+                                    <li>Опыт работы в сервисном центре от 2-х лет.</li>
+                                    <li>Знание схемотехники и умение читать техническую документацию.</li>
+                                    <li>Аккуратность, ответственность и желание развиваться.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    
+                        <!-- Вакансия 2 -->
+                        <div class="vacancy-item">
+                            <input type="checkbox" id="vacancy2" class="vacancy-toggle">
+                            <label for="vacancy2" class="vacancy-title">
+                                <span>Менеджер по работе с клиентами</span>
+                                <span class="vacancy-icon"></span>
+                            </label>
+                            <div class="vacancy-content">
+                                <h4>Основные обязанности:</h4>
+                                <ul>
+                                    <li>Прием и выдача устройств, оформление документации.</li>
+                                    <li>Консультирование клиентов по услугам, срокам и стоимости ремонта.</li>
+                                    <li>Согласование работ с клиентом, ведение клиентской базы в CRM.</li>
+                                    <li>Работа с кассой и отчетностью.</li>
+                                </ul>
+                                <h4>Требования:</h4>
+                                <ul>
+                                    <li>Опыт работы в сфере услуг или продаж от 1 года.</li>
+                                    <li>Грамотная речь, отличные коммуникативные навыки.</li>
+                                    <li>Стрессоустойчивость и умение решать конфликтные ситуации.</li>
+                                    <li>Уверенный пользователь ПК. Техническая грамотность будет вашим преимуществом.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    
+                    </div>
+                
+                    <!-- Правая колонка: как откликнуться -->
+                    <div class="vacancies__apply">
+                        <h3>Заинтересовала вакансия?</h3>
+                        <p>Мы всегда в поиске талантливых специалистов, разделяющих нашу страсть к технике и желание помогать людям. Если вы видите себя в нашей команде, отправьте свое резюме на нашу почту.</p>
+                        
+                        <div class="vacancies__email-block">
+                            <span>Наша почта для резюме:</span>
+                            <a href="mailto:hr@droid-service.com">hr@droid-service.com</a>
+                        </div>
+                    
+                        <p>В теме письма обязательно укажите название вакансии. Мы рассмотрим вашу кандидатуру и свяжемся с вами!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================= БЛОК КОНТАКТЫ (CONTACTS) ======================= -->
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <h2 class="section-title">Наши контакты</h2>
+                <div class="contacts__content">
+                    <!-- Левая колонка с информацией -->
+                    <div class="contacts__info-block">
+                        <h3>Мы всегда на связи и готовы помочь!</h3>
+                        <p class="contacts__address">
+                            <i class="icon-location"></i> <!-- Иконка (добавим в CSS) -->
+                            г. Москва, ул. Технологичная, д. 1, офис 101
+                        </p>
+                        <div class="contacts__links">
+                            <a href="tel:+74951234567">
+                                <i class="icon-phone"></i> <!-- Иконка (добавим в CSS) -->
+                                +7 (495) 123-45-67
+                            </a>
+                            <a href="mailto:info@droid-service.com">
+                                <i class="icon-mail"></i> <!-- Иконка (добавим в CSS) -->
+                                info@droid-service.com
+                            </a>
+                        </div>
+                        <p>Мы в социальных сетях:</p>
+                        <div class="contacts__social">
+                            <a href="#" aria-label="Telegram"><img src="/assets/img/icon/icon_telegram_32.png" alt="Telegram"></a>
+                            <a href="#" aria-label="WhatsApp"><img src="/assets/img/icon/icon_WhatsApp_32.png" alt="WhatsApp"></a>
+                            <a href="#" aria-label="VK"><img src="/assets/img/icon/" alt="VK"></a>
+                        </div>
+                    </div>
+
+                    <!-- Правая колонка с картой -->
+                    <div class="contacts__map">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.385552467211!2d37.61556031593069!3d55.752220480554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a5a1f6a5f5f%3A0x8f2d5c5b5d5d5a5a!2sRed%20Square!5e0!3m2!1sen!2sru!4v1678886400000!5m2!1sen!2sru" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================= БЛОК ОТЗЫВЫ (REVIEWS SLIDER) ======================= -->
+        <section class="reviews" id="reviews">
+            <div class="container">
+                <h2 class="section-title">Отзывы наших клиентов</h2>
+                <div class="slider-wrapper">
+                    <input type="radio" name="review-slider" id="review-slide1" checked>
+                    <input type="radio" name="review-slider" id="review-slide2">
+                    <input type="radio" name="review-slider" id="review-slide3">
+
+                    <div class="slides-container">
+                        <!-- Отзыв 1 -->
+                        <div class="slide review-slide">
+                            <blockquote>"Разбил экран на своем iPhone, думал, придется покупать новый. Ребята из 'Дройд' заменили все за час, телефон как новый! Огромное спасибо за скорость и качество."</blockquote>
+                            <cite>— Александр В.</cite>
+                        </div>
+                        <!-- Отзыв 2 -->
+                        <div class="slide review-slide">
+                            <blockquote>"Телефон перестал заряжаться. В другом сервисе сказали, что нужно менять плату за бешеные деньги. Здесь же мастер за 20 минут почистил разъем и все заработало. Честный сервис!"</blockquote>
+                            <cite>— Михаил П.</cite>
+                        </div>
+                        <!-- Отзыв 3 -->
+                        <div class="slide review-slide">
+                            <blockquote>"Утопила свой Samsung в отпуске. Была уверена, что ему конец. Но в 'Дройде' сотворили чудо! Полная чистка, замена аккумулятора, и он снова в строю. Рекомендую!"</blockquote>
+                            <cite>— Елена К.</cite>
+                        </div>
+                    </div>
+
+                    <div class="slider-nav">
+                        <label for="review-slide1"></label>
+                        <label for="review-slide2"></label>
+                        <label for="review-slide3"></label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================= БЛОК ПРИМЕРЫ РАБОТ (PORTFOLIO SLIDER) ======================= -->
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <h2 class="section-title">Примеры наших работ</h2>
+            
+                <!-- Контейнер-обертка для слайдера -->
+                <div class="slider-wrapper">
+                    <!-- Радио-кнопки для управления слайдером -->
+                    <input type="radio" name="portfolio-slider" id="portfolio-slide1" checked>
+                    <input type="radio" name="portfolio-slider" id="portfolio-slide2">
+                    <input type="radio" name="portfolio-slider" id="portfolio-slide3">
+                
+                    <!-- Контейнер со всеми слайдами, который будет двигаться -->
+                    <div class="slides-container">
+                        <!-- Слайд 1 -->
+                        <div class="portfolio-slide">
+                            <h3>Замена задней крышки iPhone 14 Pro</h3>
+                            <div class="before-after">
+                                <div class="before-after__item">
+                                    <img src="/assets/img/Iphone14_before.png" alt="Телефон до ремонта">
+
+                                    <span>Было</span>
+                                </div>
+                                <div class="before-after__item">
+                                    <img src="/assets/img/iphone14_after.png" alt="Телефон после ремонта">
+                                    <span>Стало</span>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <!-- Слайд 2 -->
+                        <div class="portfolio-slide">
+                            <h3>Чистка платы MacBook после попадания воды</h3>
+                            <div class="before-after">
+                                <div class="before-after__item">
+                                    <img src="/assets/img/MacBook_before.png" alt="Плата до чистки">
+                                    <span>Было</span>
+                                </div>
+                                <div class="before-after__item">
+                                    <img src="/assets/img/MacBook_after.png" alt="Плата после чистки">
+                                    <span>Стало</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Слайд 3 -->
+                        <div class="portfolio-slide">
+                            <h3>Замена дисплейного модуля Samsung Galaxy</h3>
+                            <div class="before-after">
+                                <div class="before-after__item">
+                                    <img src="/assets/img/Samsung_before.png" alt="Экран до замены">
+                                    <span>Было</span>
+                                </div>
+                                <div class="before-after__item">
+                                    <img src="/assets/img/Samsung_after.png" alt="Экран после замены">
+                                    <span>Стало</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Навигация (точки) -->
+                    <div class="slider-nav">
+                        <label for="portfolio-slide1"></label>
+                        <label for="portfolio-slide2"></label>
+                        <label for="portfolio-slide3"></label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Пустой блок для якоря "Вакансии" -->
+        <div id="vacancies"></div>
+
+    </main>
+
+    <!-- ======================= ПОДВАЛ САЙТА (FOOTER) ======================= -->
+    <footer class="footer" id="footer">
+        <div class="container footer__container">
+            <!-- Левая колонка, навигации -->
+            <div class="footer__column-nav">
+                <h4>Навигация</h4>
+                <nav class="footer__nav">
+                    <ul>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#pricing">Цены</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                        <li><a href="#reviews">Отзывы</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Правая колонка, описание -->
+            <div class="footer__column-about">
+                <h4>О сервисе «Дройд»</h4>
+                <p>Мы — команда профессионалов, увлеченных своим делом. Ремонтируем мобильную технику с 2015 года и гордимся тысячами довольных клиентов.</p>
+                <div class="footer__legal">
+                    <p>© 2024 «Дройд»</p>
+                    <p>ООО "ТехноСервис", ИНН 1234567890</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ======================= ПЛАВАЮЩАЯ КНОПКА (STICKY CTA) ======================= -->
+    <a href="#main-form" class="sticky-cta btn">Заказать звонок</a>
+
+</body>
+</html>
+
+
+
+
