@@ -34,8 +34,8 @@
             <div class="header__contacts">
                 <a href="tel:+74951234567">+7 (495) 123-45-67</a>
                 <a href="mailto:info@droid-service.com">info@droid-service.com</a>
+                <!-- Плейсхолдеры для иконок соцсетей -->
                 <div class="header__social">
-                    <!-- Плейсхолдеры для иконок соцсетей -->
                     <a href="#"><img src="/assets/img/icon/icon_telegram_32.png" alt="Telegram"></a>
                     <a href="#"><img src="/assets/img/icon/icon_WhatsApp_32.png" alt="WhatsApp"></a>
                 </div>
@@ -45,7 +45,7 @@
 
     <main>
 
-        <!-- ======================= ПЕРВЫЙ ЭКРАН (HERO) ======================= -->
+        <!-- ======================= ПЕРВЫЙ ЭКРАН (main) ======================= -->
         <section class="hero" id="hero">
             <div class="container hero__container">
                 <div class="hero__content">
@@ -90,7 +90,7 @@
                         <h3>Опытные мастера</h3>
                         <p>Наши инженеры имеют опыт работы более 5 лет и проходят регулярную сертификацию.</p>
                     </div>
-                     <div class="advantage-item">
+                    <div class="advantage-item">
                         <h3>Бесплатная диагностика</h3>
                         <p>Даже в случае отказа от ремонта, вы не платите за диагностику устройства.</p>
                     </div>
@@ -105,37 +105,45 @@
                 <div class="faults__grid">
                     <!-- Карточка 1 -->
                     <div class="fault-card">
-                        <img src="https://via.placeholder.com/300x200/cccccc/000000?text=Замена+дисплея" alt="Замена дисплея">
+                        <div class="fault-card_img">
+                            <img src="./assets/img/ReplacDisplay.png" alt="Замена дисплея">
+                        </div>
                         <div class="fault-card__content">
                             <h4>Замена дисплейного модуля</h4>
-                            <p>Установка нового оригинального экрана или качественной копии на ваш выбор.</p>
+                            <!-- <p>Установка нового оригинального экрана или качественной копии на ваш выбор.</p> -->
                             <div class="fault-card__price">от 3500 ₽</div>
                         </div>
                     </div>
                     <!-- Карточка 2 -->
                     <div class="fault-card">
-                        <img src="https://via.placeholder.com/300x200/cccccc/000000?text=Замена+аккумулятора" alt="Замена аккумулятора">
+                        <div class="fault-card_img">
+                            <img src="./assets/img/ReplaceBattery.png" alt="Замена аккумулятора">
+                        </div>
                         <div class="fault-card__content">
                             <h4>Замена аккумулятора</h4>
-                            <p>Телефон быстро разряжается? Установим новую батарею с гарантией.</p>
+                            <!-- <p>Телефон быстро разряжается? Установим новую батарею с гарантией.</p> -->
                             <div class="fault-card__price">от 1500 ₽</div>
                         </div>
                     </div>
                     <!-- Карточка 3 -->
                     <div class="fault-card">
-                        <img src="https://via.placeholder.com/300x200/cccccc/000000?text=Обновление+ПО" alt="Обновление ПО">
+                        <div class="fault-card_img">
+                            <img src="./assets/img/АlashingOS.png" alt="Обновление ПО">
+                        </div>
                         <div class="fault-card__content">
                             <h4>Обновление ПО и прошивка</h4>
-                            <p>Устранение программных сбоев, удаление вирусов, установка ПО.</p>
+                            <!-- <p>Устранение программных сбоев, удаление вирусов, установка ПО.</p> -->
                             <div class="fault-card__price">от 1200 ₽</div>
                         </div>
                     </div>
                     <!-- Карточка 4 -->
                     <div class="fault-card">
-                        <img src="https://via.placeholder.com/300x200/cccccc/000000?text=Чистка+от+влаги" alt="Чистка от влаги">
+                        <div class="fault-card_img">
+                            <img src="./assets/img/CleaningMoisture.png" alt="Чистка от влаги">
+                        </div>
                         <div class="fault-card__content">
                             <h4>Чистка после попадания жидкости</h4>
-                            <p>Комплексная ультразвуковая чистка платы от коррозии для спасения вашего устройства.</p>
+                            <!-- <p>Комплексная ультразвуковая чистка платы от коррозии для спасения вашего устройства.</p> -->
                             <div class="fault-card__price">от 2000 ₽</div>
                         </div>
                     </div>
@@ -239,7 +247,7 @@
             </div>
         </section>
 
-<!-- ================= B.10. Блок Вакансии (Vacancies) ================= -->
+<!-- ================= Блок Вакансии (Vacancies) ================= -->
         <section id="vacancies" class="vacancies">
             <div class="container">
                 <h2 class="section-title">Станьте частью команды «Дройд»</h2>
@@ -324,16 +332,16 @@
                     <div class="contacts__info-block">
                         <h3>Мы всегда на связи и готовы помочь!</h3>
                         <p class="contacts__address">
-                            <i class="icon-location"></i> <!-- Иконка (добавим в CSS) -->
+                            <i class="icon-location"></i> <!-- Иконка -->
                             г. Москва, ул. Технологичная, д. 1, офис 101
                         </p>
                         <div class="contacts__links">
                             <a href="tel:+74951234567">
-                                <i class="icon-phone"></i> <!-- Иконка (добавим в CSS) -->
+                                <i class="icon-phone"></i> <!-- Иконка -->
                                 +7 (495) 123-45-67
                             </a>
                             <a href="mailto:info@droid-service.com">
-                                <i class="icon-mail"></i> <!-- Иконка (добавим в CSS) -->
+                                <i class="icon-mail"></i> <!-- Иконка -->
                                 info@droid-service.com
                             </a>
                         </div>
@@ -341,7 +349,7 @@
                         <div class="contacts__social">
                             <a href="#" aria-label="Telegram"><img src="/assets/img/icon/icon_telegram_32.png" alt="Telegram"></a>
                             <a href="#" aria-label="WhatsApp"><img src="/assets/img/icon/icon_WhatsApp_32.png" alt="WhatsApp"></a>
-                            <a href="#" aria-label="VK"><img src="/assets/img/icon/" alt="VK"></a>
+                            <a href="#" aria-label="VK"><img src="./assets/img/icon/icon_vk_32.png" alt="VK"></a>
                         </div>
                     </div>
 
@@ -404,12 +412,12 @@
             
                 <!-- Контейнер-обертка для слайдера -->
                 <div class="slider-wrapper">
-                    <!-- Радио-кнопки для управления слайдером -->
+                    <!-- кнопки для управления слайдером -->
                     <input type="radio" name="portfolio-slider" id="portfolio-slide1" checked>
                     <input type="radio" name="portfolio-slider" id="portfolio-slide2">
                     <input type="radio" name="portfolio-slider" id="portfolio-slide3">
                 
-                    <!-- Контейнер со всеми слайдами, который будет двигаться -->
+                    <!-- Контейнер со слайдами -->
                     <div class="slides-container">
                         <!-- Слайд 1 -->
                         <div class="portfolio-slide">
@@ -458,7 +466,7 @@
                         </div>
                     </div>
                 
-                    <!-- Навигация (точки) -->
+                    <!-- Навигация -->
                     <div class="slider-nav">
                         <label for="portfolio-slide1"></label>
                         <label for="portfolio-slide2"></label>
@@ -468,15 +476,12 @@
             </div>
         </section>
         
-        <!-- Пустой блок для якоря "Вакансии" -->
-        <div id="vacancies"></div>
-
     </main>
 
     <!-- ======================= ПОДВАЛ САЙТА (FOOTER) ======================= -->
     <footer class="footer" id="footer">
         <div class="container footer__container">
-            <!-- Левая колонка, навигации -->
+            <!-- Левая колонка, (навигации) -->
             <div class="footer__column-nav">
                 <h4>Навигация</h4>
                 <nav class="footer__nav">
@@ -488,7 +493,7 @@
                     </ul>
                 </nav>
             </div>
-            <!-- Правая колонка, описание -->
+            <!-- Правая колонка, (описание) -->
             <div class="footer__column-about">
                 <h4>О сервисе «Дройд»</h4>
                 <p>Мы — команда профессионалов, увлеченных своим делом. Ремонтируем мобильную технику с 2015 года и гордимся тысячами довольных клиентов.</p>
